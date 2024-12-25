@@ -1,0 +1,43 @@
+{
+  "name": "expo-thermal-print",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-thermal-print",
+    "ExpoThermalPrint"
+  ],
+  "repository": "https://github.com/anxhirr/expo-thermal-print",
+  "bugs": {
+    "url": "https://github.com/anxhirr/expo-thermal-print/issues"
+  },
+  "author": "anxhi <anxhirr@gmail.com> (https://github.com/anxhirr)",
+  "license": "MIT",
+  "homepage": "https://github.com/anxhirr/expo-thermal-print#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "expo-module-scripts": "^4.0.2",
+    "expo": "~52.0.0",
+    "react-native": "0.76.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
